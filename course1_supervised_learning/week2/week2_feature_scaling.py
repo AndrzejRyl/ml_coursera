@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from week2.week2_gradient_desc_multiple_vals import gradient_descent, compute_cost, compute_gradient
+from course1_supervised_learning.week2.week2_gradient_desc_multiple_vals import gradient_descent, compute_cost, compute_gradient
 
 np.set_printoptions(precision=2)
 

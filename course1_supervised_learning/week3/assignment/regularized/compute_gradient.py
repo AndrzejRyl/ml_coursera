@@ -1,4 +1,4 @@
-from week3.assignment.compute_gradient import compute_gradient
+from course1_supervised_learning.week3.assignment.compute_gradient import compute_gradient
 
 
 def compute_gradient_reg(X, y, w, b, lambda_=1):

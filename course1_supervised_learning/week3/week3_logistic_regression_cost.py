@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from week3.week3_sigmoid_function import sigmoid
+from course1_supervised_learning.week3.week3_sigmoid_function import sigmoid
 
 
 def load_data():

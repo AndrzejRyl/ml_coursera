@@ -1,4 +1,4 @@
-from week3.assignment.sigmoid_function import sigmoid
+from course1_supervised_learning.week3.assignment.sigmoid_function import sigmoid
 import numpy as np
 
 

@@ -1,12 +1,12 @@
 import numpy as np
 
-from week3.assignment.compute_gradient import compute_gradient
-from week3.assignment.cost_function import compute_cost
-from week3.assignment.gradient_descent import gradient_descent
-from week3.assignment.load_data import load_data
-from week3.assignment.plot_data import plot_data
-from week3.assignment.regularized.compute_gradient import compute_gradient_reg
-from week3.assignment.regularized.cost_function import compute_cost_logistic_reg
+from course1_supervised_learning.week3.assignment.compute_gradient import compute_gradient
+from course1_supervised_learning.week3.assignment.cost_function import compute_cost
+from course1_supervised_learning.week3.assignment.gradient_descent import gradient_descent
+from course1_supervised_learning.week3.assignment.load_data import load_data
+from course1_supervised_learning.week3.assignment.plot_data import plot_data
+from course1_supervised_learning.week3.assignment.regularized.compute_gradient import compute_gradient_reg
+from course1_supervised_learning.week3.assignment.regularized.cost_function import compute_cost_logistic_reg
 
 if __name__ == '__main__':
     x_train, y_train = load_data()

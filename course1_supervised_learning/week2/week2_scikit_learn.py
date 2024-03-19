@@ -3,7 +3,7 @@ from sklearn.linear_model import SGDRegressor
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
-from week2.week2_feature_scaling import load_dataset
+from course1_supervised_learning.week2.week2_feature_scaling import load_dataset
 
 np.set_printoptions(precision=2)
 

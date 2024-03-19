@@ -1,16 +1,16 @@
 import numpy as np
 
-from week2.assignment.additional.compute_cost_flexible import compute_cost_flexible
-from week2.assignment.additional.compute_gradient_flexible import compute_gradient_flexible
-from week2.assignment.additional.gradient_descent_flexible import gradient_descent_flexible
-from week2.assignment.additional.plot_fit_flexible import plot_fit_flexible
-from week2.assignment.compute_cost import compute_cost
-from week2.assignment.compute_gradient import compute_gradient
-from week2.assignment.gradient_descent import gradient_descent
-from week2.assignment.load_data import load_data
-from week2.assignment.plot_data import plot_data
-from week2.assignment.plot_linear_fit import plot_linear_fit
-from week2.week2_feature_scaling import zscore_normalize_features
+from course1_supervised_learning.week2.assignment.additional.compute_cost_flexible import compute_cost_flexible
+from course1_supervised_learning.week2.assignment.additional.compute_gradient_flexible import compute_gradient_flexible
+from course1_supervised_learning.week2.assignment.additional.gradient_descent_flexible import gradient_descent_flexible
+from course1_supervised_learning.week2.assignment.additional.plot_fit_flexible import plot_fit_flexible
+from course1_supervised_learning.week2.assignment.compute_cost import compute_cost
+from course1_supervised_learning.week2.assignment.compute_gradient import compute_gradient
+from course1_supervised_learning.week2.assignment.gradient_descent import gradient_descent
+from course1_supervised_learning.week2.assignment.load_data import load_data
+from course1_supervised_learning.week2.assignment.plot_data import plot_data
+from course1_supervised_learning.week2.assignment.plot_linear_fit import plot_linear_fit
+from course1_supervised_learning.week2.week2_feature_scaling import zscore_normalize_features
 
 import matplotlib.pyplot as plt
 
