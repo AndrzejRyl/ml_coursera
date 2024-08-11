@@ -35,3 +35,32 @@ def visualize_predictions(x, y, model):
         ax.set_axis_off()
     fig.suptitle("Label, yhat", fontsize=16)
     plt.show()
+
+    all_predictions = []
+    for i in range(len(y)):
+        prediction = model.predict(x[i].reshape(1, 400))
+        if prediction >= 0.5:
+            yhat = 1
+        else:
+            yhat = 0
+        all_predictions.append(yhat)
+
+    all_predictions = np.array(all_predictions).T
+    all_predictions = np.expand_dims(all_predictions, axis=-1)
+
+    errors = np.where(y != all_predictions)
+    number_of_errors = len(errors[0])
+    print("Number of errors: %s" % number_of_errors)
+
+    if number_of_errors > 0:
+        fig = plt.figure(figsize=(1, 1))
+        fig.tight_layout(pad=0.1, rect=[0, 0.03, 1, 0.92])
+
+        first_error_index = errors[0][0]
+        x_random_reshaped = x[first_error_index].reshape((20, 20))
+        plt.imshow(x_random_reshaped, cmap='gray')
+        plt.title(f"{y[first_error_index, 0]}, {all_predictions[first_error_index, 0]}")
+        plt.axis('off')
+
+        fig.suptitle("Error example", fontsize=16)
+        plt.show()
