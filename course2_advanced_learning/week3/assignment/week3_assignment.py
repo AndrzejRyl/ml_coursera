@@ -35,8 +35,7 @@ def test_neural_network():
 
     find_optimal_regularization_alpha(x_train, y_train, x_cv, y_cv)
 
+
 if __name__ == '__main__':
-    # test_regression()
+    test_regression()
     test_neural_network()
-
-
